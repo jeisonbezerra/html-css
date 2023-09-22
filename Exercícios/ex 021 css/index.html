@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personalizando Links</title>
+    <style>
+        /*
+        SELETORES PERSONALIZADOS
+        #  = ID
+        .  = Class
+        :  = Pseudo-class
+        :: = Pseudo-element
+        >  = Children
+        */
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+          
+        }
+
+       a{
+        color: lightcoral;
+        text-decoration: none;
+       }
+       a:visited{
+
+        color: blue;
+                        
+       }
+       a:hover{
+        text-decoration: underline;
+        color: black;
+       }
+       a:active{
+        color: green;
+       }
+       a::before{
+        content: "⇒";
+        color: darkblue;
+        font-size: 14px;
+        font-weight: lighter;
+       }
+       a::after{
+        content: "⇐";
+        color: darkblue;
+        font-size: 14px;
+        font-weight: lighter;
+       }
+       .especial{
+        background-color: rgb(201, 216, 222);
+        
+       }
+
+    </style>
+</head>
+<body>
+    <ul>
+       
+        <li><a href="https://www.facebook.com/" target="_self" class="especial">Facebook</a></li>
+        <li><a href="https://instagram.com" target="_self">Instagram</a></li>
+        <li><a href="https://youtube.com.br" target="_self" class="especial">You Tube Brasil</a></li>
+        <li><a href="https://romhustler.org" target="_self">Rom Hustler</a></li>
+                
+    </ul>
+</body>
+</html>

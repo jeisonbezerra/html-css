@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="imagens/Dtafalonso-Android-L-Play-Games.ico" type="image/x-icon">
+    <title>Mídias em HTML5 5</title>
+</head>
+<body>
+    <h1>Imagens dinâmica</h1>
+    <p>Tente abrir esse site em vários dispositivos diferentes ou simplismente aumente e diminua o tamanho do seu navegador.</p>
+    <picture>      
+        <source media="(max-width: 750px)" srcset="imagens/foto-p.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="imagens/foto-m.png" type="image/png">
+        <img src="imagens/foto-g.png" alt="imagem flexível">
+    </picture>
+     
+    <h1>Reproduzindo Áudios</h1>
+   
+    <audio preload="metadata" controls><source src="download/takemeback.mp3" type="audio/mpeg"></audio>
+    <audio preload="metadata" controls><source src="download/takemeback.mp3" type="audio/mpeg"></audio>
+          
+    <h2>Links para dowload</h2>
+    <ul>
+    <li><a href="download/takemeback.mp3" target="_blank" download="takemeback.mp3" type="audio/mpeg">Baixar o arquivo em mp3</a></li>
+
+    <li><a href="download/takemeback.zip" target="_blank" download="takemeback.zip" type="application/zip">Baixar o arquivo em zip</a></li>
+
+    <h1>Inserindo vídeos hospedado localmente</h1>
+    
+     <p>Jogada do [OR] Carpa contra o squad full.</p>
+    <video controls width="560" height="315" poster="imagens/PUBG_BATTLEGROUNDS_(Imagem_Reprodução_Krafton).jpg">
+       <source src="Videos/Carpawipe.mp4" type="video/mp4">
+       <source src="Videos/Carpawipe.webm" type="video/webm">
+       <p>Seu navegador não tem compatibilidade com reprodução d vídeos</p>
+    </video>
+    <h1>Inserindo vídeos do YouTube</h1>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/Sm_KgD0_P5I" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    <h1>Inserindo Vídeos do Vímeo</h1>
+    <iframe src="https://player.vimeo.com/video/543879742?h=54991872e8&color=ff9933&byline=0&portrait=0" width="560" height="315" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+     
+    <h2>Download do primeiro vídeo</h2>
+    <ul type="disc">
+    <li><a href="Videos/Carpawipe.zip" target="_blank" download="carpawipe" type="video/mp4">Download do vídeo aqui.</a></li>
+    </ul>
+     
+        
+</body>
+</html>

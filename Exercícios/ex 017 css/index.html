@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="Mario.ico" type="image/x-icon">
+    <title>Fontes em CSS</title>
+<style>
+   h1{
+    font-family: 'Times New Roman', Times, serif;
+   }
+   body{
+        font-family: Arial, Helvetica, sans-serif;
+        /*
+        Medidas absolutas
+        cm, mm, in, px, pt, pc.
+
+        Medidas Relativas
+        em, ex, rem, vw, vh, %.
+        16px geralmente é = 1em
+        */
+        font-size: 16px ;
+        /*lighter normal bold bolder*/
+
+    }
+    h1{
+        /* shorthand font
+        Ordem do short-hand:
+
+        - font-style -> font-weit -> font-size -> font-family
+        
+        font-style: Italic
+        font-weith: bolder
+        font-size: 3em
+        font-family: 'Work Sans', sans-serif;        
+       */
+        font: italic bolder 3em 'work sans', sans-serif ;
+
+    }
+</style>
+</head>
+<body>
+    <h1>Fontes em CSS</h1>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laudantium enim alias quae est iusto quia quam provident veritatis porro, eligendi qui dicta, earum eaque modi. Labore fuga officiis quo officia.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui explicabo adipisci perferendis iure nam, corrupti eos aliquid earum! Culpa modi dignissimos corporis nemo provident, iste deserunt accusantium numquam cumque distinctio!</p>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Non harum rem earum, placeat explicabo dolorum. Consectetur earum nemo voluptatibus quasi error natus asperiores praesentium alias facere, impedit nam nostrum dolores.</p>
+</body>
+</html>
